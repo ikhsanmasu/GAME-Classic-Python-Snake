@@ -1,5 +1,21 @@
 from turtle import Turtle
 
+import os
+import sys
+
+# # use this directory when generating exe file
+# if getattr(sys, 'frozen', False):
+#     # If the application is run as a bundle, the PyInstaller bootloader
+#     # extends the sys module by a flag frozen=True and sets the app
+#     # path into variable _MEIPASS'.
+#     application_path = sys._MEIPASS
+# else:
+#     application_path = os.path.dirname(os.path.abspath(__file__))
+#
+# csv_dir = application_path + "/score.txt"
+
+csv_dir = "score.txt"
+
 class Score(Turtle):
     def __init__(self):
         super().__init__()
