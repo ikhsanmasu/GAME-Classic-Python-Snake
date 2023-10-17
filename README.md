@@ -1,4 +1,4 @@
-# GAME-Classic--Snake
+# GAME-Classic-Snake
 simple python snake game
 
 ![image](https://github.com/ikhsanmasu/GAME-Classic--Snake/assets/76894210/202991ba-5f88-4f6e-848f-3d88b845c5ca)
